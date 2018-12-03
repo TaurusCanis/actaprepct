@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ACTA Prep.</title>
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav-menu-acta">
+          <a href="#jumbotron">acta</a>
+        </div>
+        <div id="nav-menu-items">
+        <a href="#jumbotron"><div id="nav-home" class="nav-btn">Home</div></a>
+        <a href="#services"><div id="nav-services" class="nav-btn">Services</div></a>
+        <a href="#about"><div id="nav-about" class="nav-btn">About</div></a>
+        <a href="#contact"><div id="nav-contact" class="nav-btn">Contact</div></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="jumbotron">
+        <div id="jumbotron-left">
+          <div id="jumbotron-text">
+            <h1>acta prep</h1>
+            <h2>Academic Tutoring and Coaching</h2>
+          </div>
+          <div id="jumbotron-contact">
+            <a href="#contact">
+            <div id="contact-btn">
+              Schedule a Consultation
+            </div>
+            </a>
+          </div>
+        </div>
+        <img src="https://image.freepik.com/free-vector/colorful-education-concept-with-flat-design_23-2147903636.jpg">
+      </div>
+      <div id="services">
+        <h2 id="services-heading">ACTA Prep is proud to offer:</h2>
+        <div class="wrapper">
+        <div class="offering" id="academic-tutoring">
+          <img src="https://media.istockphoto.com/vectors/test-answer-sheet-icon-vector-id507278110" id="test-prep-icon" class="offering-icon">
+          <h3 class="offering-heading">Academic Tutoring</h3>
+          <ul>
+            <li>Algebra, Geometry, Calculus</li>
+            <li>English and Writing</li>
+            <li>Latin, Greek</li>
+            <li>Macroeconomics and Microeconomics</li>
+            <li>and more...</li>
+          </ul>
+        </div>
+        <div class="offering" id="standardized-test-prep">
+          <img src="https://media.istockphoto.com/vectors/test-answer-sheet-icon-vector-id507278110" id="test-prep-icon" class="offering-icon">
+          <h3 class="offering-heading">Standardized Test Prep</h3>
+            
+          <ul>
+            <li>SAT</li>
+            <li>ACT</li>
+            <li>SSAT</li>
+            <li>ISSE</li>
+            <li>and more...</li>
+          </ul>
+        </div>
+        <div class="offering" id="application-services">
+          <img src="https://media.istockphoto.com/vectors/test-answer-sheet-icon-vector-id507278110" id="test-prep-icon" class="offering-icon">
+          <h3 class="offering-heading">Applications Assitance with: </h3>
+          <ul>
+            <li>Essays</li>
+            <li>Interviews</li>
+            <li>Application Reveiw</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div id="about">
+        <h2 id="about-heading">About Acta Prep</h2>
+        <div id="about-wrapper">
+        <img src="https://activerain.com/image_store/uploads/agents/dagnyeason/files/Andrew%20Dole%20pic.jpg" id="andrew-pic">
+        <div id="andrew-bio">
+          <p>A professional educator for over seven years, Andrew has served students from all over Fairfield and Westchester counties including New Canaan, Darien, Greenwich, Westport, Rowayton, Stamford, Norwalk, and Round Ridge, NY since 2011. Andrew earned his Bachelor's degree in Economics and Classical Studies from the College of the Holy Cross before completing his Master's degree in Classical Studies at Villanova University. For five years, Andrew taught Latin at New Canaan Country School where he assumed various other roles including Chair of the World Languages Department for three years.</p>
+          <p>In 2016, Andrew started his own tutoring and academic support service offering an array of educational supports across a wide variety of disciplines. As a tutor and academic coach, Andrew strives to provide outstanding and effective support tailored to each student's personal needs.</p>
+        </div>
+        </div>
+      </div>
+      <div id="contact">
+        
+        <h2>Ready to get started?!</h2>
+        <h3>Fill out the form below and tell us about your child.</h3>
+        <div id="form-border">
+        <form action="/contact" method="POST" id="survey-form" role="form">
+          <div class="form-div">
+      <label for="name" id="name-label">*Parent's Name: </label>
+      <input type="text" id="name" name="user_name" required placeholder="Name">
+          </div>
+          <div class="form-div">
+      <label id="email-label" for="email">*Parent's Email: </label>
+      <input type="email" id="email" name="user_email" required placeholder="Email">
+          </div>
+          <div class="form-div">
+      <label for="student-name" id="student-name-label">*Name: </label>
+      <input type="text" id="student-name" name="student_name" required placeholder="Student's Name">
+          </div>
+          <div class="form-div">
+      <label for="dropdown" id="grade-label">Student's Current Grade: </label>
+      <select id="dropdown">
+        <option value="1">1st</option>
+        <option value="2">2nd</option>
+        <option value="3">3rd</option>
+        <option value="4">4th</option>
+        <option value="5">5th</option>
+        <option value="6">6th</option>
+        <option value="7">7th</option>
+        <option value="8">8th</option>
+        <option value="9">9th</option>
+        <option value="10">10th</option>
+        <option value="11">11th</option>
+        <option value="12">12th</option>
+        <option value="College">College</option>
+      </select>
+          </div>
+          
+      <label class="form-div" id="comments-label" for="message" >Please tell us about your child's needs: </label>
+      <textarea placeholder="" rows="5" cols="75" name="message"></textarea>
+          
+      <input type="submit" id="submit">
+    </form>
+      </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-links">
+        <a href="#jumbotron">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Jobs</a>
+        <p>Copyright 2018 Acta, LLC.</p>
+      </div>
+      <div id="footer-brand">
+        acta prep
+      </div>
+      
+    </footer>
+  </body>
+</html>

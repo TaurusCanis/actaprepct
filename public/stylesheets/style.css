@@ -1,0 +1,232 @@
+:root {
+  --nav-height: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: var(--nav-height);
+  background-color: #46999D;
+}
+
+nav a {
+  text-decoration: none;
+  align-self: center;
+}
+
+.nav-btn {
+  padding-right: 30px;
+  font-size: 1.25em;
+  color: #faecbb;
+}
+
+#nav-menu-acta {
+  font-family: 'Comfortaa', cursive;
+  align-self: center;
+  padding-left: 30px;
+  font-size: 2.0em;
+  color: #faecbb;
+  text-decoration: none;
+}
+
+#nav-menu-acta a {
+  color: #faecbb;
+}
+
+#nav-menu-items {
+  display: flex;
+}
+
+#jumbotron {
+  background-color: #A3DEE2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+#jumbotron-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#jumbotron-left h1 {
+  text-align: center;
+}
+
+#jumbotron-contact {
+  align-self: center;
+  background-color: yellow;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  -webkit-box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53); 
+  box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53);
+}
+
+#jumbotron-text h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 4.0em;
+}
+
+#jumbotron-contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#services {
+  padding: var(--nav-height) 0;
+    background: url('https://image.freepik.com/free-photo/an-overhead-view-of-laptop-file-folders-calculator-pencils-and-paper-on-black-background_23-2147916413.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+}
+
+#services-heading {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.offering-heading {
+  text-align: center;
+  margin-bottom: -4px;
+}
+
+.offering {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin: 15px 0;
+  width: 275px;
+  background-color: #A3DEE2;
+  -webkit-box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53); 
+  box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53);
+}
+
+.offering ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.offering ul li {
+  list-style: none;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.offering-icon {
+  max-width: 275px;
+  margin-left: -15px;
+}
+
+#about {
+  padding: var(--nav-height) 100px;
+  background-color: #fcf2cf;
+  text-align: center;
+}
+
+#about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#andrew-pic {
+  align-self: center;
+  height: 300px;
+  border-radius: 1px;
+  -webkit-box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53); 
+  box-shadow: 2px 2px 11px 2px rgba(0,0,0,0.53);
+}
+
+#andrew-bio p {
+  max-width: 790px;
+  margin-left: 50px;
+  font-size: 1.3em;
+}
+
+#contact {
+  background-color: #A3DEE2;
+  padding: var(--nav-height);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h2, #contact h3 {
+  text-align: center;
+}
+
+#form-border {
+  border: 1px solid black;
+  width: 500px;
+  padding: 30px;
+
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-div {
+  width: 292px;
+  margin-bottom: 7.5px;
+  display: flex;  
+}
+
+#submit {
+  margin-top: 7.5px;
+  width: 75px;
+  height: 50px;
+  background-color: orange;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.53); 
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.53);
+}
+
+footer {
+  background-color: #424159;
+  color: white;
+  padding: var(--nav-height) 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-brand {
+  font-size: 3.0em;
+}
